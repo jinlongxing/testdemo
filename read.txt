@@ -91,3 +91,10 @@ git merge --no-ff -m "merge with no-ff" dev   （因为本次合并要创建一�
 从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
 
 --！ rebase ？？？？？？？？？
+
+--！ 标签管理
+命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+
+命令git tag可以查看所有标签。
