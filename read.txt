@@ -50,3 +50,6 @@ git clone git@github.com:serverName/XX.git
 git checkout -b dev ；git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
 $ git branch dev
 $ git checkout dev
+dev分支开发完成且提交到工作区后，切换回master分支。执行git merge dev来合并dev分支开发的内容。
+删除分支：git branch -d dev
+查看分支：git branch
