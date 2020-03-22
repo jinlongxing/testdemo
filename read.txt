@@ -45,3 +45,8 @@ git reset --hard HEAD^
 
 --! 现在，假设我们从零开发，那么最好的方式是先创建远程库，然后，从远程库克隆
 git clone git@github.com:serverName/XX.git
+
+--！ 分支创建切换
+git checkout -b dev ；git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
