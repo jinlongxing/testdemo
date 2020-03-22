@@ -1,7 +1,9 @@
-adadada
+aaaaaaaaaaaaaaaaaaaaaaaa
 
-bcdef
- ÄãºÃÂð git
- ¿¿¿¿¿¿¿¿¿¿¿¿¿¿
- ¿¿¿¿¿¿¿¿¿
 
+ git
+git init
+git add
+git commit
+git diff ''
+git status
