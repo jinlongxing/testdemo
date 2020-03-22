@@ -7,3 +7,7 @@ git add
 git commit
 git diff ''
 git status
+
+git log
+git log --pretty=online
+git reflog  用于找不到版本号
